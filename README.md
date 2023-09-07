@@ -12,3 +12,5 @@ Group Members:
 - Rose
 - Connor
 - Kyle
+
+Here is some text in a paragraph
