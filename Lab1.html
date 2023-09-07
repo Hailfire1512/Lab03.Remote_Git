@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tarleton Tennis Wearhouse</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 style="color: #ccff00; font-family: Arial, Helvetica, sans-serif">
+        Welcome to Tarleton Tennis Warehouse
+      </h1>
+    </header>
+    <script language="javascript">
+      var todayIs = new Date()
+      var wimbeldonIs = new Date ("July 16, 2023");
+      var daysSubtracted = wimbeldonIs - todayIs;
+      var daysUntil= Math.ceil(daysSubtracted/(1000*60*60*24));
+      document.write("<p id=countdown>" + "There are " + daysUntil + " days until Wimbeldon Finals" + '</p>');
+    </script>
+	<div class=""Wrapper>
+    <nav class = "navLinks">
+      <ul>
+        <li>
+        <a
+          href="file:///Users/connorlang/Desktop/Web%20Devlopment/Web%20Dev%20Lab%201/Lab1Page2.html"
+          >Links</a>
+        </li>
+        
+        <li>
+        <a
+          href="file:///Users/connorlang/Desktop/Web%20Devlopment/Web%20Dev%20Lab%201/pictures.html"
+          >Images</a>
+        </li> 
+
+        <li>
+          <a 
+            href="file:///Users/connorlang/Desktop/Web%20Devlopment/Web%20Dev%20Lab%201/form.html"
+          >Racket Stringing</a>
+        </li>
+
+        <li>
+          <a href="file:///Users/connorlang/Desktop/Web%20Devlopment/Web%20Dev%20Lab%201/contactus.html"
+          >Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+	<main>
+    <h2 style="color: #ccff00; font-family: Arial, Helvetica, sans-serif">
+      Info on the store!
+    </h2>
+    <p>
+      We are a make believe Tennis equipment and service store based in
+      Stephenville Texas and are proud to work with Tarleton tennis!
+    </p>
+    <p>
+      We sell all your tennis needs including rackets, balls, strings, bags and
+      more!
+    </p>
+
+    <h3 style="color: #ccff00; font-family: Arial, Helvetica, sans-serif">
+      What you can find at our store!
+    </h3>
+    <script language="javascript">
+      var quotes= new Array() 
+      quotes[0]="Tennis Facts: Tarleton Womens Tennis made the conference tournament finals!!"
+      quotes[1]="Tennis Facts: Tennis is one of the most popular world wide sports"
+      quotes[2]="Tennis Facts: Wilson has unveiled their new line of rackets and they look SICK" 
+      quotes[3]="Tennis Facts: The Babolat Pure Strike GEN 3 is an AMAZING racket" 
+      quotes[4]="Tennis Facts: Doubles is 1000% better than singles"
+      randomNum=Math.floor(Math.random() * 5)
+      document.write(quotes[randomNum])
+    </script>
+    <br>
+    <br>
+    <dt>Babolat pure strike</dt>
+    <dd>
+      The Babolat pure strike is a fan racket more in tune to power instead of
+      control. If you are looking to hit the ball harder and take your game to
+      the next level this is the racket for you!
+    </dd>
+    <dt>Wilson Pro Staff</dt>
+    <dd>
+      Endorsed by legendary Roger Federer him self, the Wilson Pro Staff is a
+      racket built for control and precision, for the patient player wanting to
+      outplay your opponent this is for you.
+    </dd>
+    <dt>Racket Stringing</dt>
+    <dd>
+      Pop the strings on your racket? Bring the racket here and for a small fee
+      of 10$ (plus cost of string) we will have your racket ready to go in no
+      time!
+    </dd>
+    <div class= "vidWrapper">
+      <video src="IMG_7169.MOV.3GP"
+      controls width="480" height="270"></video>
+    </div>
+    <script>
+      window.onload = function() {
+        let name = prompt("What is your name?");
+        alert("Welcome to the page, " + name + "!");
+      };
+
+    </script>
+	</div>	
+	</main>
+    <footer>
+      <p>
+        ©Connor Lang Tarleton Tennis Warehouse inc. for more information,
+        contact at:
+        <a href="mailto:connor15lang@gmail.com">connor15lang@gmail.com</a>
+        <br>
+        <script>
+          document.write("This document was last modified on: ", document.lastModified);
+        </script>
+      </p>
+    </footer>
+  </body>
+</html>
