@@ -9,7 +9,7 @@ _Some Italic Text_
 ```Some Quoted Text```
 
 Group Members:
-- Rose
+- Rose Berends
 - Connor
 - Kyle
 
